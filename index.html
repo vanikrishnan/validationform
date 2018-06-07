@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h3>Employee ID Card Form</h3>
+    <form novalidate>
+        <div class="input-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" maxlength=10  required>
+            <span class="span-for-errors" id="errForFirstName">Please enter your preferred name as first name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" maxlength=15 required>
+            <span class="span-for-errors" id="errForFullName">Please enter your full name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="designation">Designation</label>
+            <input type="text" id="designation" maxlength=20 required>
+            <span class="span-for-errors" id="errForDesignation">Please enter your preferred name as first name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="employeecode">Employeecode</label>
+            <input type="text" id="employeecode" maxlength=7 required>
+            <span class="span-for-errors" id="errForEmployeecode">Please enter your preferred name as first name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="bloodgroup">Bloodgroup</label>
+            <input type="text" id="bloodgroup" required>
+            <span class="span-for-errors" id="errForBloodgroup">Please enter your preferred name as first name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="reason">Reason</label>
+            <select required>
+                    <option value="">None</option>
+                <option value="New Employee">New Employee</option>
+                <option value="Lost">Lost</option>
+                <option value="Conversion">Conversion</option>
+                <option value="Defaced">Defaced</option>
+                <option value="Designation Changed">Designation Changed</option>
+              </select>
+                
+            <span class="span-for-errors" id="errForReason">Please enter your preferred name as first name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="dateofemployment">Date Of Employment</label>
+            <input type="text" id="dateofemployment" required>
+            <span class="span-for-errors" id="errForDateOfEmployment">Please enter your preferred name as first name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="mailid">E-mailid</label>
+            <input type="text" id="mailid" required>
+            <span class="span-for-errors" id="errFormailid">Please enter your preferred name as first name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="phoneno">Phone no</label>
+            <input type="text" id="phoneno" required>
+            <span class="span-for-errors" id="errForphoneno">Please enter your preferred name as first name</span>
+        </div><br>
+        <div class="input-group">
+            <label for="contactno">Contact no</label>
+            <input type="text" id="contactno" required>
+            <span class="span-for-errors" id="errForcontactno">Please enter your preferred name as first name</span>
+        </div><br>
+        <button type="button" onclick="addDetails()">Add Details</button>
+    </form>
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js "></script>
+</body>
+
+</html>
