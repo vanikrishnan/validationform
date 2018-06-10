@@ -9,40 +9,41 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+
 </head>
 
-<body>
-    <h3>Employee ID Card Form</h3>
+<body class="p-3 mb-2 bg-info text-white">
+    <h3>Employee ID Card Form</h3><br>
     <form novalidate>
             <div class="form-row align-items-center">
         <div class="form-group">
-            <label for="firstName" class="col-sm-2 col-form-label">First Name</label>
-            <input type="text" class="form-control"  id="firstName" maxlength=10  required>
+            <label for="firstName" class="col-md-12">First Name</label>
+            <input type="text" class="col-12  p-3 mb-2 bg-primary text-white"  id="firstName" maxlength=10  required>
             <span class="span-for-errors" id="errForFirstName">Please enter your preferred name as first name</span>
         </div><br>
         <div class="form-group">
-            <label for="fullName" class="col-sm-2 col-form-label">Full Name</label>
-            <input type="text" class="form-control" id="fullName" maxlength=20 required>
+            <label for="fullName" class="col-md-12">Full Name</label>
+            <input type="text" class="col-12  p-3 mb-2 bg-primary text-white" id="fullName" maxlength=20 required>
             <span class="span-for-errors" id="errForFullName">Please enter your full name</span>
         </div><br>
         <div class="form-group">
-            <label for="designation" class="col-sm-2 col-form-label">Designation</label>
-            <input type="text" class="form-control" id="designation" maxlength=25 required>
+            <label for="designation" class="col-md-12">Designation</label>
+            <input type="text" class="col-12 p-3 mb-2 bg-primary text-white" id="designation" maxlength=25 required>
             <span class="span-for-errors" id="errForDesignation">Please enter your designation</span>
         </div><br>
         <div class="form-group">
-            <label for="employeecode" class="col-sm-2 col-form-label">Employeecode</label>
-            <input type="text" class="form-control" id="employeecode" maxlength=7 required>
+            <label for="employeecode" class="col-md-12">Employeecode</label>
+            <input type="text" class="col-12  p-3 mb-2 bg-primary text-white" id="employeecode" maxlength=7 required>
             <span class="span-for-errors" id="errForEmployeecode">Please enter your employee code</span>
         </div><br>
         <div class="form-group">
-            <label for="bloodgroup" class="col-sm-2 col-form-label">Bloodgroup</label>
-            <input type="text"  class="form-control" id="bloodgroup" required>
+            <label for="bloodgroup" class="col-md-12">Bloodgroup</label>
+            <input type="text"  class="col-12  p-3 mb-2 bg-primary text-white" id="bloodgroup" required>
             <span class="span-for-errors" id="errForBloodgroup">Please enter your blood group</span>
         </div><br>
         <div class="form-group">
-            <label for="reason" class="col-sm-2 col-form-label">Reason</label>
-            <select id="re" class="form-control" required>
+            <label for="reason" class="col-md-12">Reason</label>
+            <select id="re" class="col-12 p-3 mb-2 bg-primary text-white" required>
                     <option value="">None</option>
                 <option value="New Employee">New Employee</option>
                 <option value="Lost">Lost</option>
@@ -54,23 +55,23 @@
             <span class="span-for-errors" id="errForReason">Please enter your reason</span>
         </div><br>
         <div class="form-group">
-            <label for="dateofemployment" class="col-sm-2 col-form-label">Date Of Employment</label>
-            <input type="date"   class="form-control" id="dateofemployment" required>
+            <label for="dateofemployment" class="col-md-12">Date Of Employment</label>
+            <input type="date"   class="col-12  p-3 mb-2 bg-primary text-white" id="dateofemployment" required>
             <span class="span-for-errors" id="errForDateOfEmployment">Please enter your date of employment</span>
         </div><br>
         <div class="form-group">
-            <label for="mailid" class="col-sm-2 col-form-label">E-mailid</label>
-            <input type="text"  class="form-control" id="mailid" required>
+            <label for="mailid" class="col-md-12">E-mailid</label>
+            <input type="text"  class="col-12  p-3 mb-2 bg-primary text-white" id="mailid" required>
             <span class="span-for-errors" id="errFormailid">Please enter your mailid</span>
         </div><br>
         <div class="form-group">
-            <label for="phoneno" class="col-sm-2 col-form-label">Phone no</label>
-            <input type="text" class="form-control"  id="phoneno" maxlength=10 required>
+            <label for="phoneno" class="col-md-12">Phone no</label>
+            <input type="text" class="col-12  p-3 mb-2 bg-primary text-white"  id="phoneno" maxlength=10 required>
             <span class="span-for-errors" id="errForphoneno">Please enter your phoneno</span>
         </div><br>
         <div class="form-group">
-            <label for="contactno" class="col-sm-2 col-form-label">Contact no</label>
-            <input type="text"  class="form-control" id="contactno" maxlength=10 required>
+            <label for="contactno" class="col-md-12">Contact no</label>
+            <input type="text"  class="col-12 p-3 mb-2 bg-primary text-white" id="contactno" maxlength=10 required>
             <span class="span-for-errors" id="errForcontactno">Please enter your contactno</span>
         </div><br>
         <button type="button" class="btn btn-primary" onclick="addDetails()">Add Details</button>
@@ -78,6 +79,7 @@
     </form>
     <script src="js/jquery.js"></script>
     <script src="js/app.js "></script>
+
 </body>
 
 </html>
